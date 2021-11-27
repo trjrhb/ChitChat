@@ -30,6 +30,28 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <!-- Add all firebase plugins below-->
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-storage.js"></script>
+
+  <script>
+  // Web App Firebase Config
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyA689q-qwKkPDIYBq50Bcm4BP-0TNbc-O0",
+    authDomain: "chitchat-106ef.firebaseapp.com",
+    projectId: "chitchat-106ef",
+    storageBucket: "chitchat-106ef.appspot.com",
+    messagingSenderId: "565906787546",
+    appId: "1:565906787546:web:34028528fb129ab1c9a9e3",
+    measurementId: "G-CXY3REQ299"
+  };
+
+  // Initalize Firebase
+  firebase.initalizeApp(firebaseConfig);
+  </script>
+
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->

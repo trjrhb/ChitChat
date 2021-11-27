@@ -54,5 +54,8 @@ class AppColors {
   static const shadow = Color(0x403F3F3F); //(25% Opacity)
 
   static const backgroundColor = Color(0xFFCFD0D0); //(Background/Text)
-  static const buttonColor = Color(0xFF363433); //(Buttons/Base/LargeText)
+  static const buttonColor = Color(0xFF1B1B1B); //(Buttons/Base/LargeText)
+
+  static const screenGradient1 = Color(0xFFFF5757); // Top left color
+  static const screenGradient2 = Color(0xFFCB6CE6); // Bottom right color
 }
